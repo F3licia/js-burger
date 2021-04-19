@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Create your Burger</h1></div>
+
+    <div id="nameBurger">
+        <input type="name" id="nameBurger" name="nameBurger" placeholder="Name your Burger">
+    </div>
+
+    <div>
+      <h4>Ingredients</h4>
+
+        <p>Cheese</p>
+        <input type="checkbox" id="cheese" class="ingredient" name="cheese" value="5">
+        <label for="cheese">Add</label>
+
+        <p>Tomato</p>
+        <input type="checkbox" id="tomato" class="ingredients" name="tomato" value="2">
+        <label for="tomato">Add</label>
+
+        <p>Egg</p>
+        <input type="checkbox" id="egg" class="ingredient" name="egg" value="3">
+        <label for="egg">Add</label>
+
+        <p>Lettuce</p>
+        <input type="checkbox" id="lettuce" class="ingredient" name="lettuce" value="4">
+        <label for="lettuce">Add</label>
+
+        <p>Mustard</p>
+        <input type="checkbox" id="mustard" class="ingredient" name="mustard" value="6">
+        <label for="mustard">Add</label>
+
+        <p>Ketchup</p>
+        <input type="checkbox" id="ketchup" class="ingredient" name="ketchup" value="1">
+        <label for="ketchup">Add</label>
+
+    </div>
+    <div>
+        <div class="coupon">
+            <label for="coupon">Discount Coupon</label><br>
+            <input type="text" id="coupon" name="discount">
+        </div>
+    </div>
+
+    <button id="button" class="btn">calculate</button>
+
+    <div>
+        <h1>Your price</h1>   <h1 id="finalPrice">50</h1>
+    </div>
+    <script src="scriptBurger.js"></script>
+</body>
+</html>
