@@ -9,6 +9,9 @@ submitBnt.addEventListener("click", function (){
 
     //nome burger
    var name = document.getElementById("name").value
+    //alert se manca il nome
+   if(!name){alert("inserisci un nome") };
+   
    console.log(name)
 
     //recupero i valori degli ingredienti
