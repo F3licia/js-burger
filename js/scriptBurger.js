@@ -25,11 +25,13 @@ submitBnt.addEventListener("click", function (){
             }   //li sommo al prezzo base
             }
 
+    var codiciSconto = ["sconto005" , "sconto010" ]
+    
     //funzione di calcolo sconto
     function discount(x) {
-        if(x ==="sconto005") {
+        if(x === codiciSconto[0] ) {
             return 5;
-        }else if (x ==="sconto010") {
+        }else if (x === codiciSconto[1]) {
             return 10;
         }else{ return null};   
     }
@@ -37,5 +39,7 @@ submitBnt.addEventListener("click", function (){
     document.getElementById("price").innerHTML = (somma - discount(coupon)) 
 
 })
-  
+
+
+
 
