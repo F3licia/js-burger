@@ -38,3 +38,11 @@ submitBnt.addEventListener("click", function (){
 
 })
   
+var codiciSconto = ["sconto005" , ]
+codiceSconto[i] = codiceUtente
+var codiceFormattato = codiceUtente.toLowerCase();
+var elementExist = false;
+
+if (codiciSconto.indexOf(codUtenteFormattato) > -1){
+    elementExist = true;
+}
